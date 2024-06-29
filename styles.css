@@ -3,15 +3,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333; /* Set default text color */
+    background-color:#333;
+    color: #ffffff; /* Set default text color */
 }
-
 header {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1rem 0;
+    
 }
 
 nav {
@@ -52,17 +52,17 @@ footer {
 }
 
 .gallery-item {
-    background-color: white;
+    background-color: #333;
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
     width: calc(50% - 1rem); /* Adjust width to fit two items per row with spacing */
     margin-bottom: 2rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
 
 .gallery-item img {
-    max-width: 50%; /* Set maximum width for images */
+    max-width: 40%; /* Set maximum width for images */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure images behave as block elements */
     margin: 0 auto; /* Center align images */
@@ -72,7 +72,7 @@ footer {
     display: block;
     text-align: center;
     margin-bottom: 1rem;
-    color: #333; /* Adjust link color */
+    color: #ffffff; /* Adjust link color */
     text-decoration: none;
     font-weight: bold;
 }
