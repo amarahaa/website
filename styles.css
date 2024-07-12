@@ -5,7 +5,32 @@ body {
     padding: 0;
     background-color:#333;
     color: #ffffff; /* Set default text color */
+    padding-bottom: 150px; /* Adjust the value as needed */
+
+    
 }
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
 header {
     background-color: #333;
     color: white;
@@ -43,6 +68,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    
+    
 }
 
 .gallery {
