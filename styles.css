@@ -9,6 +9,18 @@ body {
 
     
 }
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner-image {
+    width: auto;
+    height: auto;
+    max-height: 300px; /* Adjust the height based on your design */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
 
 h1 {
     display: block;
